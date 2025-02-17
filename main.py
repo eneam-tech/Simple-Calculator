@@ -23,8 +23,6 @@ def perform(n1):
     calculation = operations[input(f"Choose the operation between {operations.keys()}: ")]
     n2 = input("Choose the second number:")
     result = calculation(float(n1),float(n2))
-
-    print(f"{n1} {calculation} {n2} = {result}")
     return result
 
 def user_input():
